@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  font-size: 1.3rem;
+  background-image: url(https://images.unsplash.com/photo-1552984418-b55abf780dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+  background-position: center;
+  background-size: cover;
+}
+
+form {
+  height: 65vh;
+  width: 35%;
+  padding: 2rem 2rem;
+  border-radius: 3rem;
+  box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  background-color: rgba(255, 255, 255, 0.423);
+}
+
+.firstrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rest {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: 1.2rem;
+}
+
+.rest div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rest div p {
+  width: 100%;
+  text-align: left;
+}
+
+.inputvalues {
+  width: 100%;
+}
+
+input {
+  height: 1.2rem;
+  padding: 0 0.2rem;
+  margin-top: 0.5rem;
+  outline: none;
+}
+
+#submit {
+  height: 2rem;
+  background-color: rgba(19, 101, 225, 0.782);
+  color: white;
+  border-radius: 5px;
+  width: 8rem;
+  margin: 0 auto;
+}
+
+@media(max-width:62rem) {
+  .firstrow {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .firstrow input {
+    width: 100%;
+  }
+
+  form {
+    height: 90vh;
+    width: 50vw;
+  }
+}
