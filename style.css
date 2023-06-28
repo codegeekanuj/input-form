@@ -7,7 +7,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 120vh;
+  height: 100vh;
   font-size: 1.3rem;
   background-image: url(https://images.unsplash.com/photo-1552984418-b55abf780dd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
   background-position: center;
@@ -15,9 +15,9 @@ body {
 }
 
 form {
-  height: 65vh;
-  width: 35%;
-  padding: 2rem 2rem;
+  height: 58vh;
+  width: 30%;
+  padding: 1rem 2rem;
   border-radius: 3rem;
   box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
   background-color: rgba(255, 255, 255, 0.423);
@@ -51,8 +51,8 @@ form {
 }
 
 input {
-  height: 1.2rem;
-  padding: .5 0.3rem;
+  height: 1.5rem;
+  /* padding: .9 1.5rem; */
   margin-top: 0.5rem;
   outline: none;
 }
@@ -67,6 +67,7 @@ input {
 }
 
 @media(max-width:62rem) {
+ 
   .firstrow {
     flex-direction: column;
     gap: .4rem;
@@ -77,7 +78,7 @@ input {
   }
 
   form {
-    height: 75vh;
+    height: 26rem;
     width: 60vw;
   }
 }
